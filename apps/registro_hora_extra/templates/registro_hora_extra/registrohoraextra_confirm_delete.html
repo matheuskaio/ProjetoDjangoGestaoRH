@@ -1,0 +1,11 @@
+{% extends 'base.html'%}
+
+{% block main %}
+<h2>Removendo Registro de Horas Extra</h2>
+<form method="POST">
+    {%csrf_token%}
+    <h2>Você esta certo que quer deletar {{object}}</h2>
+    {{ form }}
+    <button type="submit" class="btn btn-danger">Deletar</button>
+</form>
+{% endblock %}

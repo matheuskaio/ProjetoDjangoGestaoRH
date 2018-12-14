@@ -1,0 +1,4 @@
+.gitgnore
+.idea
+*.sqllite3
+venv
