@@ -1,0 +1,7 @@
+*.idea
+*.sqllite3
+*pyc
+DS_STORE
+media
+.vENV
+.gitignore
