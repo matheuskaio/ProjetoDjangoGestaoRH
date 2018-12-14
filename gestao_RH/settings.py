@@ -25,7 +25,7 @@ SECRET_KEY = 'ygtrsmml)7a(taahksq2jfh%0hilxx%i=#0cumv*82^3ni1_zf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['18.218.35.118:']
 
 
 # Application definition
